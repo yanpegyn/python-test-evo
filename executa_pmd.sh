@@ -1,0 +1,1 @@
+pmd check -d ./html -f json -R ./ruleset.xml --report-file pmd-report.json --cache "./tmp/pmd_cache" --debug

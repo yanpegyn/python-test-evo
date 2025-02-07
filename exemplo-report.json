@@ -1,0 +1,25 @@
+{
+    "formatVersion": 0,
+    "pmdVersion": "7.10.0",
+    "timestamp": "2025-02-07T17:02:30.053-03:00",
+    "files": [
+      {
+        "filename": ".\\html\\index.html",
+        "violations": [
+          {
+            "beginline": 9,
+            "begincolumn": 5,
+            "endline": 22,
+            "endcolumn": 22,
+            "description": "All accordions in a group must have icons or avatars if one does, and cannot have both.",
+            "rule": "ConsistentAccordionIconsAndAvatars",
+            "ruleset": "Custom Accordion Rules",
+            "priority": 3
+          }
+        ]
+      }
+    ],
+    "suppressedViolations": [],
+    "processingErrors": [],
+    "configurationErrors": []
+}
